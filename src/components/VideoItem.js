@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Paper, Typography, Tyypography } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@material-ui/core";
 const VideoItem = ({ video, onVideoSelect }) => {
   return (
     <Grid item xs={12}>
