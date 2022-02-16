@@ -16,7 +16,8 @@ const App = () => {
         q: searchTerm,
       },
     });
-    setVideos(response.data.items), setSelectedVideo(response.data.items[0]);
+    setVideos(response.data.items) 
+    setSelectedVideo(response.data.items[0]);
   };
 
   return (
